@@ -1,0 +1,17 @@
+{
+  "name": "two-tenant-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The smallest proof that Supabase RLS isolates tenants — two users, your real API, the response body.",
+  "bin": {
+    "two-tenant-test": "test.mjs"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
